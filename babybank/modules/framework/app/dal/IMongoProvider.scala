@@ -1,0 +1,5 @@
+package dal
+
+trait IMongoProvider {
+
+}
