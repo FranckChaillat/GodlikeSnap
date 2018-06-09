@@ -4,7 +4,7 @@ import org.scalatestplus.play._
 import org.scalatestplus.play.guice._
 import play.api.test._
 import play.api.test.Helpers._
-import services.HomeController
+
 
 /**
  * Add your spec here.
@@ -16,7 +16,7 @@ class HomeControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
 
   "HomeController GET" should {
 
-    "render the index page from a new instance of controller" in {
+ /*   "render the index page from a new instance of controller" in {
       val controller = new SnapService(stubControllerComponents())
       val home = controller.index().apply(FakeRequest(GET, "/"))
 
@@ -41,6 +41,6 @@ class HomeControllerSpec extends PlaySpec with GuiceOneAppPerTest with Injecting
       status(home) mustBe OK
       contentType(home) mustBe Some("text/html")
       contentAsString(home) must include ("Welcome to Play")
-    }
+    }*/
   }
 }

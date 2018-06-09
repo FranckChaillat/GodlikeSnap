@@ -1,4 +1,4 @@
 
 GET     /:userid                      controllers.snapshot.SnapshotService.getSnapshots(userid: Int)
 
-POST    /:userid                      controllers.snapshot.SnapshotService.postSnapshot(userid: Int)
+GET    /test/:userid                      controllers.snapshot.SnapshotService.postSnapshot(userid: Int)
